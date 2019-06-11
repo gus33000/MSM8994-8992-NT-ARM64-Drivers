@@ -79,7 +79,7 @@ qcdsp28992.mbn
 [SUBSYSReg]
 ; ADSP registry values
 HKR ,                                                                                         , "AdspImagePath"         , %REG_SZ%   , "\SystemRoot\system32\qcadsp8992.mbn"
-HKLM, SYSTEM\CurrentControlSet\services\qcSubsystemLoad\{D58464D3-5B28-4ea6-A2E2-E8E57C5C69B8}, MemoryReservation       , %REG_DWORD%, 0x01800000
+HKLM, SYSTEM\CurrentControlSet\services\qcSubsystemLoad\{D58464D3-5B28-4ea6-A2E2-E8E57C5C69B8}, MemoryReservation       , %REG_DWORD%, 0x01400000
 HKLM, SYSTEM\CurrentControlSet\services\qcSubsystemLoad\{D58464D3-5B28-4ea6-A2E2-E8E57C5C69B8}, MemoryAlignment         , %REG_DWORD%, 0x00100000
 
 ; AMSS registry values
@@ -95,7 +95,7 @@ HKR ,                                                                           
 ; AMSS Memory Alignment
 HKLM, SYSTEM\CurrentControlSet\services\qcSubsystemLoad\{936DC601-5530-4b82-9D2A-72A488BEC7C1}, MemoryAlignment         , %REG_DWORD%, 0x00400000
 HKLM, SYSTEM\CurrentControlSet\services\qcSubsystemLoad\{936DC601-5530-4b82-9D2A-72A488BEC7C1}, MemoryReservation       , %REG_DWORD%, 0x05A00000
-HKLM, SYSTEM\CurrentControlSet\services\qcSubsystemLoad\{936DC601-5530-4b82-9D2A-72A488BEC7C1}, MemoryAddress           , %REG_DWORD%, 0x07000000
+HKLM, SYSTEM\CurrentControlSet\services\qcSubsystemLoad\{936DC601-5530-4b82-9D2A-72A488BEC7C1}, MemoryAddress           , %REG_DWORD%, 0x07400000
 
 ; MBA registry values
 HKLM, SYSTEM\CurrentControlSet\services\qcSubsystemLoad\{BA58766D-ABF2-4402-88D7-90AB243F6C77}, MemoryAlignment         , %REG_DWORD%, 0x00100000
